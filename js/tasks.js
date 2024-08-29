@@ -34,3 +34,15 @@
 // function outText(ev) {
 //     output.textContent = ev.currentTarget.value;
 // }
+
+
+
+
+console.log ("log");
+function foo(x, n) {
+    let arr = [];
+    for (let i = 1; i <= n; i++)
+    arr.push(x * i)
+    return arr
+}
+console.log(foo(2, 1));
